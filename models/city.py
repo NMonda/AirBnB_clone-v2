@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """This is the city class"""
-from sqlalchemy import String, DateTime, Column, ForeignKey
-from sqlalchemy.orm import relationship
 from models.base_model import BaseModel, Base
+from sqlalchemy import Column, String, ForeignKey
+from sqlalchemy.orm import relationship
 
 
 class City(BaseModel, Base):
